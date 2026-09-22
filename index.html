@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMA | Moda que sigue circulando</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg luma-nav sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand logo" href="index.html">LUMA</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="categorias.html">Categorías</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="vender.html">Vender</a>
+                </li>
+
+            </ul>
+
+            <a href="carrito.html" class="cart-link">
+                🛒
+                <span id="cartCount" class="cart-count">0</span>
+            </a>
+
+        </div>
+    </div>
+</nav>
+
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero container">
+
+        <div class="hero-copy">
+
+            <span class="eyebrow">
+                MARKETPLACE DE MODA
+            </span>
+
+            <h1>
+                Moda que sigue
+                <span>circulando.</span>
+            </h1>
+
+            <p>
+                Compra y vende ropa, tenis y accesorios
+                nuevos o usados en un solo lugar.
+            </p>
+
+            <a href="categorias.html" class="btn-luma">
+                Explorar categorías
+            </a>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="hero-card">
+
+                <div class="hanger">
+                    L
+                </div>
+
+                <span>
+                    NEW & PRE-LOVED
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTOS -->
+    <section class="container section">
+
+        <div class="section-title">
+
+            <div>
+
+                <span class="eyebrow">
+                    DESCUBRE
+                </span>
+
+                <h2>
+                    Productos destacados
+                </h2>
+
+            </div>
+
+            <a href="categorias.html">
+                Ver todo →
+            </a>
+
+        </div>
+
+
+        <div id="featuredProducts" class="row g-4"></div>
+
+    </section>
+
+
+    <!-- VENDER -->
+    <section class="container seller-banner">
+
+        <div>
+
+            <span class="eyebrow">
+                ¿TIENES ALGO QUE YA NO USAS?
+            </span>
+
+            <h2>
+                Dale una segunda vida.
+            </h2>
+
+            <p>
+                Publica tus productos en LUMA y encuentra
+                a alguien que quiera usarlos.
+            </p>
+
+        </div>
+
+        <a href="vender.html" class="btn-luma">
+            Vender un producto
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="container">
+
+        <strong>LUMA</strong>
+
+        <span>
+            Compra. Vende. Viste diferente.
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
